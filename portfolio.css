@@ -1,0 +1,151 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    background: url("mohammad-alizade-XgeZu2jBaVI-unsplash.jpg")no-repeat;
+}
+.menu
+{
+    display: flex;
+    text-decoration: none;
+    font-family: Georgia;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 1100px;
+    position: fixed;
+    z-index: 99999;
+}
+.menu li a
+{
+    text-decoration: none;
+    padding-right: 60px;
+    color: white;
+    font-size: 25px;
+    float: right;
+    font-family: Ebrima;
+}
+.zaglavie li a:hover
+{
+    color: dodgerblue;
+    background: white;
+}
+.zaglavie li a
+{
+    font-family: Ebrima;
+    padding-right: 1%
+}
+.zaglavie li
+{
+    padding-left: 10%;
+}
+.content
+{
+    margin-left: 77px;
+    margin-top: 150px;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 110px;
+}
+.content h3 a
+{
+    text-decoration: none;
+}
+
+.about
+{
+    color: white;
+    margin-left: 80px;
+    margin-top: 24px;
+    font-size: 25px;
+    font-family: Dialog;
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 75px;
+
+}
+.about h5
+{
+    padding-top: 35px;
+    font-family: monospace;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+
+}
+.skills
+{
+    padding-top: 80px;
+    color: white;
+    margin-left: 80px;
+    font-family: Dialog;
+    font-size: 25px;
+    color: dodgerblue;
+}
+.skills h5
+{
+    padding-top: 25px;
+    font-family: monospace;
+    width: 1200px;
+    font-size: 21px;
+    display: inline-block;
+    color: white;
+    padding-bottom: 90px;
+}
+.contact
+{
+    color: dodgerblue;
+    margin-left: 80px;
+    font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    display: inline-block;
+}
+.contact li
+{
+    color: white;
+}
+.contact h5
+{
+    color: white;
+    padding-top: 25px;
+    font-family: monospace;
+}
+.contact h5 a
+{
+    text-decoration: underline;
+    color: white;
+    font-family: monospace;
+}
+#slika
+{
+    margin-left: 130%;
+    filter: grayscale(50%);
+    border-radius: 10%;
+    display: flex;
+    margin-top: -70%;
+    margin-left: 150%;
+}
+.hobby h1
+{
+    color: dodgerblue;
+    font-size: 55px;
+    margin-left: 80px;
+    padding-top: 4%;
+}
+.hobby h5
+{
+    color: white;
+    padding-left: 82px;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: monospace;
+}
